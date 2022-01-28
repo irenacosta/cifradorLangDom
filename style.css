@@ -39,6 +39,8 @@ select{
   height: 100%;
   word-wrap: break-word;
   background-color: grey;
+  color: black;
+  text-align: justify;
 }
 
 #chaveDeCesar{
@@ -124,4 +126,25 @@ select{
   
 }
 
+.footer-bottom{
+  background: #000;
+  width: 100vw;
+  padding: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+}
 
+.footer-bottom p{
+  text-align: center;
+  font-size: 14px;
+  word-spacing: 2px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+  color: seashell;
+}
+.footer-bottom span{
+ color: seashell;
+ font-size: 16px;
+ text-decoration: none;
+}
