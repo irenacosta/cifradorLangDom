@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="style.css"/>
+    <!-- <script src="langdom.js" defer></script> -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@300&display=swap" rel="stylesheet"/>
+    <title>Cifrador LangDOM</title>
+</head>
+<body>
+    <header class="titulo">
+        <a>Envie sua mensagem de maneira segura!</a>
+        
+    </header>
+
+    <section class="corpoFormulario" id="corpoFormulario">
+        <main class= "inicioFormulario">
+            <div id= "codigos">
+                <span>Escolha o código:</span>
+                <select name="select" id="codigo">
+                    <option value="empty" disabled selected></option>
+                    <option value="base64">Base64</option>
+                    <option value="cesar">Cifra de César</option>
+                </select>
+                <br>
+                <div id="chaveDeCesar"></div>
+                <center><textarea name="msg" id="mensagem" cols="30" rows="8" placeholder="Digite sua mensagem..."></textarea></center>
+            </div>
+
+            <div>
+                <label>
+                    <input class="btncode" type="radio" name="funcao" value="codificar" checked>Codificar
+                </label>
+                <label>
+                    <input class="btncode" type="radio" name="funcao" value="decodificar">Decodificar
+                </label> 
+                
+                <button id="btn">Codificar Mensagem!</button>
+            </div>
+            <br>
+
+            <p>Sua mensagem:</p>
+            <div id="suaMensagem">
+
+            </div>
+            </main>
+
+    </section>
+    
+    
+</body>
+</html>
