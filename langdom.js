@@ -4,7 +4,7 @@ const botao = document.getElementById ( 'btn' );
 const texto = document.getElementById ( 'mensagem' );
 const mensagemCodigo = document.createElement ('p')
 const incrementoChave = document.createElement (`input`);
-    incrementoChave.id = 'chaveDeCesar';
+    incrementoChave.id = 'aveCesar';
     incrementoChave.type = 'numero';
     incrementoChave.placeholder = 'Digite a chave';
 
@@ -59,7 +59,7 @@ const cCesar = () => {
     const alfabeto = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
     let frase = texto.value;
     frase = frase.toLowerCase();
-    const chaveCesar = document.getElementById( 'chaveDeCesar' ) 
+    const chaveCesar = document.getElementById( 'aveCesar' ) 
     const x = parseInt(chaveCesar.value);
     let fraseCodificada = [];
 
